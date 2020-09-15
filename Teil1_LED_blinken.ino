@@ -17,7 +17,7 @@ void setup()
 
 void loop()
 {
-  /*******************LED im sekundentakt an- und ausschalten**************/
+  /*******************LED im sekundentakt an- und ausschalten*******************/
   digitalWrite(3, HIGH);        //LED an
   Serial.println("LED an" );
   delay(1000);                  //1s warten
